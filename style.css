@@ -10,6 +10,29 @@ h1 {
     background-color: #333333;
     border: 10px solid #FF0000;
   }
-  
- 
+
+  .grid {
+    display: grid; /* Define o tipo de exibição como grade */
+    grid-template-columns: 1fr; /* Define uma coluna de largura flexível */
+    grid-template-rows: repeat(13, 1fr); /* Define sete linhas de altura flexível */
+    gap: 20px; /* Define um espaçamento de 10 pixels entre as células da grade */
+    margin: 40px; /* Define uma margem de 20 pixels ao redor da grade */
+  }
+
+  /* Define o estilo das células da grade */
+  .grid div {
+    border: 5px solid #000000; /* Borda das células */
+    box-sizing: border-box ; /* Inclui a borda na largura e altura das células */
+    background-color: #FFFFFF; /* Cor de fundo das células */
+    text-align: center; /* Alinhamento do texto dentro das células */
+  }
+
+  /* Define o estilo dos textos das células da grade */
+  .grid div span {
+    position: relative;
+    top: 50%; /* Posiciona o texto no centro vertical da célula */
+    transform: translateY(-50%); /* Centraliza o texto na célula */
+    font-size: 34px; /* Tamanho da fonte do texto */
+    font-weight: bold; /* Peso da fonte do texto */
+  }
   
