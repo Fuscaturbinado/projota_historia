@@ -14,7 +14,7 @@ h1 {
     display: grid; /* Define o tipo de exibição como grade */
     grid-template-columns: 1fr; /* Define uma coluna de largura flexível */
     grid-template-rows: repeat(13, 1fr); /* Define sete linhas de altura flexível */
-    gap: 20px; /* Define um espaçamento de 10 pixels entre as células da grade */
+    gap: 60px; /* Define um espaçamento de 10 pixels entre as células da grade */
     margin: 40px; /* Define uma margem de 20 pixels ao redor da grade */
   }
 
@@ -35,4 +35,31 @@ h1 {
     border: 5px solid #000000; /* Borda dos itens */
     box-sizing: border-box; /* Inclui a borda na largura e altura dos itens */
     background-color: #FFFFFF; /* Cor de fundo dos itens */
+  }
+  .botao1 {
+    color: red; /* Cor do texto do botão */
+  }
+
+  /* Define o estilo da classe botao2 */
+  .botao2 {
+    color: blue; /* Cor do texto do botão */
+  }
+
+  /* Define o estilo da classe botao3 */
+  .botao3 {
+    color: red;
+    background-color: #000000; /* Cor do texto do botão */
+  }
+.botao4{
+
+}
+.botao5{
+
+}
+  /* Você pode definir mais classes para os outros botões */
+  .botao6{
+
+  }
+  .botao7{
+    
   }
