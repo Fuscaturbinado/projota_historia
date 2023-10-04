@@ -7,8 +7,10 @@ h1 {
   }
   
   body {
+   
     background-color: #333333;
     border: 10px solid #FF0000;
+    border-width:10px;
   }
   .grid {
     display: grid; /* Define o tipo de exibição como grade */
