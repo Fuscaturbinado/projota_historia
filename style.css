@@ -12,6 +12,7 @@ h1 {
     border: 10px solid #FF0000;
     border-width:10px;
   }
+
   .grid {
     display: grid; /* Define o tipo de exibição como grade */
     grid-template-columns: 1fr; /* Define uma coluna de largura flexível */
@@ -23,7 +24,7 @@ h1 {
   /* Define o estilo das células da grade */
   .grid div {
     border: 5px solid #000000; /* Borda das células */
-    box-sizing: border-box ; /* Inclui a borda na largura e altura das células */
+    box-sizing: border-bo ; /* Inclui a borda na largura e altura das células */
     background-color: #FFFFFF; /* Cor de fundo das células */
     text-align: center; /* Alinhamento do texto dentro das células */
   }
