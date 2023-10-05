@@ -7,11 +7,20 @@ h1 {
   }
   
   body {
-   
-    background-color: #333333;
+    
+      width: 1500px;
+      height: 1400px;
+    
+    
     border: 10px solid #FF0000;
+    background-color: #333333;
+   
     border-width:10px;
   }
+ 
+   
+
+
 
   .grid {
     display: grid; /* Define o tipo de exibição como grade */
@@ -42,7 +51,7 @@ h1 {
  /* Define o estilo da classe botao1 */
 .botao1 {
     position: absolute; /* Posiciona o botão de forma absoluta em relação à sua célula pai */
-    left: 85.5%; /* Posiciona o botão a 80% da largura da célula a partir da esquerda */
+    left: 89.9%; /* Posiciona o botão a 80% da largura da célula a partir da esquerda */
     bottom: 155px; /* Posiciona o botão a 10 pixels da altura da célula a partir de baixo */
     color: red; /* Cor do texto do botão */
     background-color: #000000; /* Cor de fundo do botão */
@@ -51,7 +60,7 @@ h1 {
   /* Define o estilo da classe botao2 */
   .botao2 {
     position: absolute; /* Posiciona o botão de forma absoluta em relação à sua célula pai */
-    left: 85.5%; /* Posiciona o botão a 80% da largura da célula a partir da esquerda */
+    left: 89.9%; /* Posiciona o botão a 80% da largura da célula a partir da esquerda */
     bottom: -35px; /* Posiciona o botão a 10 pixels da altura da célula a partir de baixo */
     color: red; /* Cor do texto do botão */
     background-color: #000000; /* Cor de fundo do botão */
@@ -60,7 +69,7 @@ h1 {
   /* Define o estilo da classe botao3 */
   .botao3 {
     position: absolute; /* Posiciona o botão de forma absoluta em relação à sua célula pai */
-    left: 85.5%; /* Posiciona o botão a 80% da largura da célula a partir da esquerda */
+    left: 89.9%; /* Posiciona o botão a 80% da largura da célula a partir da esquerda */
     bottom: -225px; /* Posiciona o botão a 10 pixels da altura da célula a partir de baixo */
     color: red; /* Cor do texto do botão */
     background-color: #000000; /* Cor de fundo do botão */
@@ -69,7 +78,7 @@ h1 {
   /* Define o estilo da classe botao4 */
   .botao4 {
     position: absolute; /* Posiciona o botão de forma absoluta em relação à sua célula pai */
-    left: 85.5%; /* Posiciona o botão a 80% da largura da célula a partir da esquerda */
+    left: 89.9%; /* Posiciona o botão a 80% da largura da célula a partir da esquerda */
     bottom: -410px; /* Posiciona o botão a 10 pixels da altura da célula a partir de baixo */
     color: red; /* Cor do texto do botão */
     background-color: #000000; /* Cor de fundo do botão */
@@ -78,7 +87,7 @@ h1 {
   /* Define o estilo da classe botao5 */
   .botao5 {
     position: absolute; /* Posiciona o botão de forma absoluta em relação à sua célula pai */
-    left: 85.5%; /* Posiciona o botão a 80% da largura da célula a partir da esquerda */
+    left: 89.9%; /* Posiciona o botão a 80% da largura da célula a partir da esquerda */
     bottom: -600px; /* Posiciona o botão a 10 pixels da altura da célula a partir de baixo */
     color: red; /* Cor do texto do botão */
     background-color: #000000; /* Cor de fundo do botão */
@@ -87,7 +96,7 @@ h1 {
   /* Define o estilo da classe botao6 */
   .botao6 {
    position: absolute; /* Posiciona o botão de forma absoluta em relação à sua célula pai */
-   left: 85.5%; /* Posiciona o botão a 80% da largura da célula a partir da esquerda */
+   left: 89.9%; /* Posiciona o botão a 80% da largura da célula a partir da esquerda */
    bottom: 535px; /* Posiciona o botão a 10 pixels da altura da célula a partir de baixo */
    color: red; /* Cor do texto do botão */
    background-color: #000000; /* Cor de fundo do botão */ 
@@ -96,8 +105,8 @@ h1 {
   /* Define o estilo da classe botao7 */
   .botao7 {
    position: absolute; /* Posiciona o botão de forma absoluta em relação à sua célula pai */
-   left: 85.5%; /* Posiciona o botão a 80% da largura da célula a partir da esquerda */
-   bottom: 350px; /* Posiciona o botão a 10 pixels da altura da célula a partir de baixo */
+   left: 89.9%; /* Posiciona o botão a 80% da largura da célula a partir da esquerda */
+   bottom: 335px; /* Posiciona o botão a 10 pixels da altura da célula a partir de baixo */
    color: red; /* Cor do texto do botão */
    background-color: #000000; /* Cor de fundo do botão */ 
   }
