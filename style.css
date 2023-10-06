@@ -65,8 +65,8 @@
     position: absolute; /* Posiciona o botão de forma absoluta em relação à sua célula pai */
     left: 89.9%; /* Posiciona o botão a 80% da largura da célula a partir da esquerda */
     bottom: 146px; /* Posiciona o botão a 10 pixels da altura da célula a partir de baixo */
-    color: red; /* Cor do texto do botão */
-    background-color: rgba(0,0,0,.4); /* Cor de fundo do botão */
+    color: rgb(65, 27, 27); /* Cor do texto do botão */
+    background-color:wheat /* Cor de fundo do botão */
   }
   
   /* Define o estilo da classe botao2 */
@@ -74,8 +74,8 @@
     position: absolute; /* Posiciona o botão de forma absoluta em relação à sua célula pai */
     left: 89.9%; /* Posiciona o botão a 80% da largura da célula a partir da esquerda */
     bottom: -45px; /* Posiciona o botão a 10 pixels da altura da célula a partir de baixo */
-    color: red; /* Cor do texto do botão */
-    background-color: rgba(0,0,0,.4); /* Cor de fundo do botão */
+    color: rgb(65, 27, 27); /* Cor do texto do botão */
+    background-color:wheat /* Cor de fundo do botão */
   }
   
   /* Define o estilo da classe botao3 */
@@ -83,8 +83,8 @@
     position: absolute; /* Posiciona o botão de forma absoluta em relação à sua célula pai */
     left: 89.9%; /* Posiciona o botão a 80% da largura da célula a partir da esquerda */
     bottom: -235px; /* Posiciona o botão a 10 pixels da altura da célula a partir de baixo */
-    color: red; /* Cor do texto do botão */
-    background-color: rgba(0,0,0,.4); /* Cor de fundo do botão */
+    color: rgb(65, 27, 27); /* Cor do texto do botão */
+    background-color:wheat /* Cor de fundo do botão */
   }
   
   /* Define o estilo da classe botao4 */
@@ -92,8 +92,8 @@
     position: absolute; /* Posiciona o botão de forma absoluta em relação à sua célula pai */
     left: 89.9%; /* Posiciona o botão a 80% da largura da célula a partir da esquerda */
     bottom: -423px; /* Posiciona o botão a 10 pixels da altura da célula a partir de baixo */
-    color: red; /* Cor do texto do botão */
-    background-color:rgba(0,0,0,.4); /* Cor de fundo do botão */
+    color: rgb(65, 27, 27); /* Cor do texto do botão */
+    background-color:wheat /* Cor de fundo do botão */
   }
   
   /* Define o estilo da classe botao5 */
@@ -101,8 +101,8 @@
     position: absolute; /* Posiciona o botão de forma absoluta em relação à sua célula pai */
     left: 89.9%; /* Posiciona o botão a 80% da largura da célula a partir da esquerda */
     bottom: -615px; /* Posiciona o botão a 10 pixels da altura da célula a partir de baixo */
-    color: red; /* Cor do texto do botão */
-    background-color: #000000; /* Cor de fundo do botão */
+    color: rgb(65, 27, 27); /* Cor do texto do botão */
+    background-color:wheat /* Cor de fundo do botão */
   }
   
   /* Define o estilo da classe botao6 */
@@ -110,8 +110,8 @@
    position: absolute; /* Posiciona o botão de forma absoluta em relação à sua célula pai */
    left: 89.9%; /* Posiciona o botão a 80% da largura da célula a partir da esquerda */
    bottom: 523px; /* Posiciona o botão a 10 pixels da altura da célula a partir de baixo */
-   color: red; /* Cor do texto do botão */
-   background-color: rgba(0,0,0,.4); /* Cor de fundo do botão */ 
+   color: rgb(65, 27, 27); /* Cor do texto do botão */
+    background-color:wheat /* Cor de fundo do botão */ 
   }
   
   /* Define o estilo da classe botao7 */
@@ -119,8 +119,8 @@
    position: absolute; /* Posiciona o botão de forma absoluta em relação à sua célula pai */
    left: 89.9%; /* Posiciona o botão a 80% da largura da célula a partir da esquerda */
    bottom: 335px; /* Posiciona o botão a 10 pixels da altura da célula a partir de baixo */
-   color: red; /* Cor do texto do botão */
-   background-color: rgba(0,0,0,.4); /* Cor de fundo do botão */ 
+   color: rgb(65, 27, 27); /* Cor do texto do botão */
+   background-color:wheat/* Cor de fundo do botão */ 
   }
   .caixa {
     display: flex;
