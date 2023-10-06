@@ -151,7 +151,7 @@
 }
 
   .caixa2 {
-    background-image: url(imagens/nazismo.webp);
+    background-image: url(imagens/OIP\ \(1\).jpeg);
     background-size: contain;
     background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
     background-position: center;  /* Isso centralizará a imagem dentro do quadrado */
@@ -165,14 +165,14 @@
     background-position: center;  /
   }
   .caixa4 {
-    background-image: url(https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Box_Model);
+    background-image: url(imagens/OIP.jpeg);
     background-size: contain;
     background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
     background-position: center;  /
   }
   
   .caixa5 {
-    background-image: url(https://pt.stackoverflow.com/questions/168652/como-tornar-responsiva-uma-imagem-dentro-de-uma-caixa-utilizando-css);
+    background-image: url(imagens/OIP\ \(2\).jpeg);
     background-size: contain;
     background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
     background-position: center;  /
