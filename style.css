@@ -18,7 +18,15 @@ p {
     border-width:10px;
   }
  
-   
+  .guerra {
+    color: red;
+    background-color: white;
+    font-family: ar;
+    position: absolute;
+    top: 180%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 
 
 
