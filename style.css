@@ -1,7 +1,8 @@
-p {
+.pp {
     font-family: "Courier New", Courier, monospace;
     font-size: 36px;
-    color: white;
+color: red;
+background-color: white;
     text-align: center;
     margin-top: 20px;
   }
@@ -19,9 +20,10 @@ p {
   }
  
   .guerra {
+    font-size: 36px;
     color: red;
     background-color: white;
-    font-family: ar;
+    font-family:  Arial, sans-serif;
     position: absolute;
     top: 180%;
     left: 50%;
