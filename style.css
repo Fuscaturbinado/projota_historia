@@ -1,238 +1,392 @@
 .pp {
-    font-family: "Courier New", Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
+
+color: white;
+  font-size: 36px;
+
+
+  text-align: center;
+  margin-top: 20px;
+}
+
+body {
   
+    width: 1500px;
+    height: 1400px;
+  
+
+  background:rgba(0,0,0,.4);
+ 
+  border-width:10px;
+}
+
+.guerra {
+  font-family: Arial, sans-serif; /* escolhe a família da fonte */
+  font-size: 33px; /* escolhe o tamanho da fonte */
+  position: absolute;
+  top: 180%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: bold; /* escolhe o peso da fonte */
   color: white;
-    font-size: 36px;
-
-
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  body {
-    
-      width: 1500px;
-      height: 1400px;
-    
- 
-    background:rgba(0,0,0,.4);
-   
-    border-width:10px;
-  }
- 
-  .guerra {
-    font-size: 36px;
-    color: white;
-    
-    font-family:  Arial, sans-serif;
-    position: absolute;
-    top: 180%;
-    left: 50%;
-    transform: translateX(-50%);
-  }
+  text-align: center; /* centraliza o texto horizontalmente */
+}
 
 
 
-  .grid {
-    display: grid; /* Define o tipo de exibição como grade */
-    grid-template-columns: 1fr; /* Define uma coluna de largura flexível */
-    grid-template-rows: repeat(13, 1fr); /* Define sete linhas de altura flexível */
-    gap: 60px; /* Define um espaçamento de 10 pixels entre as células da grade */
-    margin: 40px; /* Define uma margem de 20 pixels ao redor da grade */
-  }
+.grid {
+  display: grid; /* Define o tipo de exibição como grade */
+  grid-template-columns: 1fr; /* Define uma coluna de largura flexível */
+  grid-template-rows: repeat(13, 1fr); /* Define sete linhas de altura flexível */
+  gap: 60px; /* Define um espaçamento de 10 pixels entre as células da grade */
+  margin: 40px; /* Define uma margem de 20 pixels ao redor da grade */
+}
 
-  /* Define o estilo das células da grade */
-  .grid div {
-    border: 5px solid #000000; /* Borda das células */
-    box-sizing: border-bo ; /* Inclui a borda na largura e altura das células */
-    background-color: #FFFFFF; /* Cor de fundo das células */
-    text-align: center; /* Alinhamento do texto dentro das células */
-  }
+/* Define o estilo das células da grade */
+.grid div {
+  border: 5px solid #000000; /* Borda das células */
+  box-sizing: border-bo ; /* Inclui a borda na largura e altura das células */
+  background-color: #FFFFFF; /* Cor de fundo das células */
+  text-align: center; /* Alinhamento do texto dentro das células */
+}
 
-  /* Define o estilo dos textos das células da grade */
-  .grid div span {
-    position: relative;
-    width: 120px; /* Largura de cada item */
-    height: 120px; /* Altura de cada item */
-    float: left; /* Alinha os itens à esquerda */
-    border: 5px solid #000000; /* Borda dos itens */
-    box-sizing: border-box; /* Inclui a borda na largura e altura dos itens */
-    background-color: #FFFFFF; /* Cor de fundo dos itens */
-  }
- /* Define o estilo da classe botao1 */
+/* Define o estilo dos textos das células da grade */
+.grid div span {
+  position: relative;
+  width: 120px; /* Largura de cada item */
+  height: 120px; /* Altura de cada item */
+  float: left; /* Alinha os itens à esquerda */
+  border: 5px solid #000000; /* Borda dos itens */
+  box-sizing: border-box; /* Inclui a borda na largura e altura dos itens */
+  background-color: #FFFFFF; /* Cor de fundo dos itens */
+}
+/* Define o estilo da classe botao1 */
 .botao1 {
-    position: absolute; /* Posiciona o botão de forma absoluta em relação à sua célula pai */
-    left: 89.9%; /* Posiciona o botão a 80% da largura da célula a partir da esquerda */
-    bottom: 146px; /* Posiciona o botão a 10 pixels da altura da célula a partir de baixo */
-    color: rgb(65, 27, 27); /* Cor do texto do botão */
-    background-color:wheat /* Cor de fundo do botão */
-  }
+  position: absolute; /* Posiciona o botão de forma absoluta em relação à sua célula pai */
+  left: 89.9%; /* Posiciona o botão a 80% da largura da célula a partir da esquerda */
+  bottom: 146px; /* Posiciona o botão a 10 pixels da altura da célula a partir de baixo */
+  color: rgb(65, 27, 27); /* Cor do texto do botão */
+  background-color:wheat /* Cor de fundo do botão */
+}
+
+/* Define o estilo da classe botao2 */
+.botao2 {
+  position: absolute; /* Posiciona o botão de forma absoluta em relação à sua célula pai */
+  left: 89.9%; /* Posiciona o botão a 80% da largura da célula a partir da esquerda */
+  bottom: -45px; /* Posiciona o botão a 10 pixels da altura da célula a partir de baixo */
+  color: rgb(65, 27, 27); /* Cor do texto do botão */
+  background-color:wheat /* Cor de fundo do botão */
+}
+
+/* Define o estilo da classe botao3 */
+.botao3 {
+  position: absolute; /* Posiciona o botão de forma absoluta em relação à sua célula pai */
+  left: 89.9%; /* Posiciona o botão a 80% da largura da célula a partir da esquerda */
+  bottom: -235px; /* Posiciona o botão a 10 pixels da altura da célula a partir de baixo */
+  color: rgb(65, 27, 27); /* Cor do texto do botão */
+  background-color:wheat /* Cor de fundo do botão */
+}
+
+/* Define o estilo da classe botao4 */
+.botao4 {
+  position: absolute; /* Posiciona o botão de forma absoluta em relação à sua célula pai */
+  left: 89.9%; /* Posiciona o botão a 80% da largura da célula a partir da esquerda */
+  bottom: -423px; /* Posiciona o botão a 10 pixels da altura da célula a partir de baixo */
+  color: rgb(65, 27, 27); /* Cor do texto do botão */
+  background-color:wheat /* Cor de fundo do botão */
+}
+
+/* Define o estilo da classe botao5 */
+.botao5 {
+  position: absolute; /* Posiciona o botão de forma absoluta em relação à sua célula pai */
+  left: 89.9%; /* Posiciona o botão a 80% da largura da célula a partir da esquerda */
+  bottom: -615px; /* Posiciona o botão a 10 pixels da altura da célula a partir de baixo */
+  color: rgb(65, 27, 27); /* Cor do texto do botão */
+  background-color:wheat /* Cor de fundo do botão */
+}
+
+/* Define o estilo da classe botao6 */
+.botao6 {
+ position: absolute; /* Posiciona o botão de forma absoluta em relação à sua célula pai */
+ left: 89.9%; /* Posiciona o botão a 80% da largura da célula a partir da esquerda */
+ bottom: 523px; /* Posiciona o botão a 10 pixels da altura da célula a partir de baixo */
+ color: rgb(65, 27, 27); /* Cor do texto do botão */
+  background-color:wheat /* Cor de fundo do botão */ 
+}
+
+/* Define o estilo da classe botao7 */
+.botao7 {
+ position: absolute; /* Posiciona o botão de forma absoluta em relação à sua célula pai */
+ left: 89.9%; /* Posiciona o botão a 80% da largura da célula a partir da esquerda */
+ bottom: 335px; /* Posiciona o botão a 10 pixels da altura da célula a partir de baixo */
+ color: rgb(61, 29, 29); /* Cor do texto do botão */
+ background-color:wheat/* Cor de fundo do botão */ 
+}
+.divisória{
+  position: relative;
+  top: -1100px;
+  background-color: wheat;
+  border: none;
+ height: 7px; 
+  border-style: solid;
+}
+.caixa {
+  display: flex;
+ position: relative;
+  top: -1000px;
+  width: 100px;
+  height: 50px;
+  margin: 22px;
+  padding: 16px;
+  border: 3px solid wheat;
+  border-radius: 16px;
   
-  /* Define o estilo da classe botao2 */
-  .botao2 {
-    position: absolute; /* Posiciona o botão de forma absoluta em relação à sua célula pai */
-    left: 89.9%; /* Posiciona o botão a 80% da largura da célula a partir da esquerda */
-    bottom: -45px; /* Posiciona o botão a 10 pixels da altura da célula a partir de baixo */
-    color: rgb(65, 27, 27); /* Cor do texto do botão */
-    background-color:wheat /* Cor de fundo do botão */
-  }
-  
-  /* Define o estilo da classe botao3 */
-  .botao3 {
-    position: absolute; /* Posiciona o botão de forma absoluta em relação à sua célula pai */
-    left: 89.9%; /* Posiciona o botão a 80% da largura da célula a partir da esquerda */
-    bottom: -235px; /* Posiciona o botão a 10 pixels da altura da célula a partir de baixo */
-    color: rgb(65, 27, 27); /* Cor do texto do botão */
-    background-color:wheat /* Cor de fundo do botão */
-  }
-  
-  /* Define o estilo da classe botao4 */
-  .botao4 {
-    position: absolute; /* Posiciona o botão de forma absoluta em relação à sua célula pai */
-    left: 89.9%; /* Posiciona o botão a 80% da largura da célula a partir da esquerda */
-    bottom: -423px; /* Posiciona o botão a 10 pixels da altura da célula a partir de baixo */
-    color: rgb(65, 27, 27); /* Cor do texto do botão */
-    background-color:wheat /* Cor de fundo do botão */
-  }
-  
-  /* Define o estilo da classe botao5 */
-  .botao5 {
-    position: absolute; /* Posiciona o botão de forma absoluta em relação à sua célula pai */
-    left: 89.9%; /* Posiciona o botão a 80% da largura da célula a partir da esquerda */
-    bottom: -615px; /* Posiciona o botão a 10 pixels da altura da célula a partir de baixo */
-    color: rgb(65, 27, 27); /* Cor do texto do botão */
-    background-color:wheat /* Cor de fundo do botão */
-  }
-  
-  /* Define o estilo da classe botao6 */
-  .botao6 {
-   position: absolute; /* Posiciona o botão de forma absoluta em relação à sua célula pai */
-   left: 89.9%; /* Posiciona o botão a 80% da largura da célula a partir da esquerda */
-   bottom: 523px; /* Posiciona o botão a 10 pixels da altura da célula a partir de baixo */
-   color: rgb(65, 27, 27); /* Cor do texto do botão */
-    background-color:wheat /* Cor de fundo do botão */ 
-  }
-  
-  /* Define o estilo da classe botao7 */
-  .botao7 {
-   position: absolute; /* Posiciona o botão de forma absoluta em relação à sua célula pai */
-   left: 89.9%; /* Posiciona o botão a 80% da largura da célula a partir da esquerda */
-   bottom: 335px; /* Posiciona o botão a 10 pixels da altura da célula a partir de baixo */
-   color: rgb(61, 29, 29); /* Cor do texto do botão */
-   background-color:wheat/* Cor de fundo do botão */ 
-  }
-  .divisória{
-    position: relative;
-    top: -1100px;
-    background-color: wheat;
-    border: none;
-   height: 7px; 
-
-    border-style: solid;
-  }
-  .caixa {
-    display: flex;
-   position: relative;
-    top: -1000px;
-    width: 100px;
-    height: 50px;
-    margin: 22px;
-    padding: 16px;
-    border: 3px solid rgb(10, 10, 10);
-    border-radius: 16px;
-    
-  }
-
-
-  .caixa47{
-    display: flex;
-    position: relative;
-     top: -1544px;
-     right:-250px ;
-     width: 100px;
-     height: 50px;
-     margin: 22px;
-     padding: 16px;
-     border: 3px solid rgb(10, 10, 10);
-
-  justify-content: center; /* Isso vai centralizar os filhos horizontalmente */
-  align-items: center; /* Isso vai centralizar os filhos verticalmente */
-  }
-  
-  .caixa48{
-    display: flex;
-    position: relative;
-     top: -2089px;
-     right:-550px ;
-     width: 100px;
-     height: 50px;
-     margin: 22px;
-     padding: 16px;
-     border: 3px solid rgb(10, 10, 10);
-
-  justify-content: center; /* Isso vai centralizar os filhos horizontalmente */
-  align-items: center; /* Isso vai centralizar os filhos verticalmente */
-  }
-  .caixa49{
-    display: flex;
-    position: relative;
-     top: -2633px;
-     right:-550px ;
-     width: 100px;
-     height: 50px;
-     margin: 22px;
-     padding: 16px;
-     border: 3px solid rgb(10, 10, 10);
-
-  justify-content: center; /* Isso vai centralizar os filhos horizontalmente */
-  align-items: center; /* Isso vai centralizar os filhos verticalmente */
-  }
-
-
-  .caixa1 {
-    background-image: url(imagens/hitler-a-carreira.webp);
-    background-size: 120%; /* Aumenta o tamanho da imagem */
-    background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
-    background-position: center;  /* Isso centralizará a imagem dentro do quadrado */
 }
 
 
-  
-  .caixa2 {
-    background-image: url(imagens/OIP.jpeg);
-    background-size: 115%; /* Aumenta o tamanho da imagem */
-    background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
-    background-position: center;  /* Isso centralizará a imagem dentro do quadrado */
+
+
+.caixa48{
+  display: flex;
+  position: relative;
+bottom : 1550px;
+   right:-660px ;
+   width: 100px;
+   height: 50px;
+   margin: 22px;
+   padding: 16px;
+   border: 3px solid wheat; 
+   border-radius: 16px;
+
+}
+.caixa49{
+  display: flex;
+  position: relative;
+   bottom: 2074px;
+   right:-1350px ;
+   width: 100px;
+   height: 50px;
+   margin: 22px;
+   padding: 16px;
+   border: 3px solid wheat;
+   border-radius: 16px;
+   
+
 }
 
 
-  
-  
-  .caixa3 {
-    background-image: url(imagens/OIP\ \(1\).jpeg);
-    background-size: 140%; /* Aumenta o tamanho da imagem */
-    background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
-    background-position: center;  /* Isso centralizará a imagem dentro do quadrado */
-  }
-  .caixa4 {
-    background-image: url(imagens/OIP\ \(2\).jpeg);
-    background-size: 200%; /* Aumenta o tamanho da imagem */
-    background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
-    background-position: center;  /* Isso centralizará a imagem dentro do quadrado */
-  }
-  
-  .caixa5 {
-    background-image: url(imagens/segunda-guerra-em-cores.webp);
-    background-size: 115%; /* Aumenta o tamanho da imagem */
-    background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
-    background-position: center;  /* Isso centralizará a imagem dentro do quadrado */
+.caixa1 {
+  background-image: url(imagens/hitler-a-carreira.webp);
+  background-size: 120%; /* Aumenta o tamanho da imagem */
+  background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
+  background-position: center;  /* Isso centralizará a imagem dentro do quadrado */
+}
 
-  }
-  .caixa6{
-    ackground-repeat: no-repeat; /* Isso evitará que a imagem se repita */
-    background-position: center; 
 
-  }
-  
-  
- 
+
+
+
+.caixa2 {
+  background-image: url(imagens/OIP.jpeg);
+  background-size: 115%; /* Aumenta o tamanho da imagem */
+  background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
+  background-position: center;  /* Isso centralizará a imagem dentro do quadrado */
+}
+
+
+
+
+
+.caixa3 {
+  background-image: url(imagens/OIP\ \(1\).jpeg);
+  background-size: 140%; /* Aumenta o tamanho da imagem */
+  background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
+  background-position: center;  /* Isso centralizará a imagem dentro do quadrado */
+}
+.caixa4 {
+  background-image: url(imagens/OIP\ \(2\).jpeg);
+  background-size: 112%; /* Aumenta o tamanho da imagem */
+  background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
+  background-position: center;  /* Isso centralizará a imagem dentro do quadrado */
+}
+
+.caixa5 {
+  background-image: url(imagens/segunda-guerra-em-cores.webp);
+  background-size: 115%; /* Aumenta o tamanho da imagem */
+  background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
+  background-position: center;  /* Isso centralizará a imagem dentro do quadrado */
+
+}
+
+
+.caixa6 {
+  background-image: url(imagens/OIP\ \(3\).jpeg);
+  background-size: 112%; /* Aumenta o tamanho da imagem */
+  background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
+  background-position: center;  /* Isso centralizará a imagem dentro do quadrado */
+}
+
+.caixa7 {
+  background-image: url(imagens/a-queda.webp);
+  background-size: 120%; /* Aumenta o tamanho da imagem */
+  background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
+  background-position: center;  /* Isso centralizará a imagem dentro do quadrado */
+}
+
+
+
+
+
+.caixa8 {
+  background-image: url(imagens/a-vida-e-bela.webp);
+  background-size: 115%; /* Aumenta o tamanho da imagem */
+  background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
+  background-position: center;  /* Isso centralizará a imagem dentro do quadrado */
+}
+
+
+
+
+
+.caixa9 {
+  background-image: url(imagens/OIP\ \(1\).jpeg);
+  background-size: 140%; /* Aumenta o tamanho da imagem */
+  background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
+  background-position: center;  /* Isso centralizará a imagem dentro do quadrado */
+}
+.caixa10 {
+  background-image: url(imagens/OIP\ \(2\).jpeg);
+  background-size: 112%; /* Aumenta o tamanho da imagem */
+  background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
+  background-position: center;  /* Isso centralizará a imagem dentro do quadrado */
+}
+
+.caixa11 {
+  background-image: url(imagens/segunda-guerra-em-cores.webp);
+  background-size: 115%; /* Aumenta o tamanho da imagem */
+  background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
+  background-position: center;  /* Isso centralizará a imagem dentro do quadrado */
+
+}
+
+
+.caixa12 {
+  background-image: url(imagens/OIP\ \(3\).jpeg);
+  background-size: 112%; /* Aumenta o tamanho da imagem */
+  background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
+  background-position: center;  /* Isso centralizará a imagem dentro do quadrado */
+}
+
+.caixa13 {
+  background-image: url(imagens/hitler-a-carreira.webp);
+  background-size: 120%; /* Aumenta o tamanho da imagem */
+  background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
+  background-position: center;  /* Isso centralizará a imagem dentro do quadrado */
+}
+
+
+
+
+
+.caixa14 {
+  background-image: url(imagens/OIP.jpeg);
+  background-size: 115%; /* Aumenta o tamanho da imagem */
+  background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
+  background-position: center;  /* Isso centralizará a imagem dentro do quadrado */
+}
+
+
+
+
+
+.caixa15 {
+  background-image: url(imagens/OIP\ \(1\).jpeg);
+  background-size: 140%; /* Aumenta o tamanho da imagem */
+  background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
+  background-position: center;  /* Isso centralizará a imagem dentro do quadrado */
+}
+.caixa16 {
+  background-image: url(imagens/OIP\ \(2\).jpeg);
+  background-size: 112%; /* Aumenta o tamanho da imagem */
+  background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
+  background-position: center;  /* Isso centralizará a imagem dentro do quadrado */
+}
+
+.caixa17 {
+  background-image: url(imagens/segunda-guerra-em-cores.webp);
+  background-size: 115%; /* Aumenta o tamanho da imagem */
+  background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
+  background-position: center;  /* Isso centralizará a imagem dentro do quadrado */
+
+}
+
+
+.caixa18 {
+  background-image: url(imagens/OIP\ \(3\).jpeg);
+  background-size: 112%; /* Aumenta o tamanho da imagem */
+  background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
+  background-position: center;  /* Isso centralizará a imagem dentro do quadrado */
+}
+
+.caixa19 {
+  background-image: url(imagens/hitler-a-carreira.webp);
+  background-size: 120%; /* Aumenta o tamanho da imagem */
+  background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
+  background-position: center;  /* Isso centralizará a imagem dentro do quadrado */
+}
+
+
+
+
+
+.caixa20 {
+  background-image: url(imagens/OIP.jpeg);
+  background-size: 115%; /* Aumenta o tamanho da imagem */
+  background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
+  background-position: center;  /* Isso centralizará a imagem dentro do quadrado */
+}
+
+
+
+
+
+.caixa21 {
+  background-image: url(imagens/OIP\ \(1\).jpeg);
+  background-size: 140%; /* Aumenta o tamanho da imagem */
+  background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
+  background-position: center;  /* Isso centralizará a imagem dentro do quadrado */
+}
+.caixa22 {
+  background-image: url(imagens/OIP\ \(2\).jpeg);
+  background-size: 112%; /* Aumenta o tamanho da imagem */
+  background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
+  background-position: center;  /* Isso centralizará a imagem dentro do quadrado */
+}
+
+.caixa23 {
+  background-image: url(imagens/segunda-guerra-em-cores.webp);
+  background-size: 115%; /* Aumenta o tamanho da imagem */
+  background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
+  background-position: center;  /* Isso centralizará a imagem dentro do quadrado */
+
+}
+
+
+.caixa24 {
+  background-image: url(imagens/OIP\ \(3\).jpeg);
+  background-size: 112%; /* Aumenta o tamanho da imagem */
+  background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
+  background-position: center;  /* Isso centralizará a imagem dentro do quadrado */
+}
+
+.caixa25 {
+  background-image: url(imagens/hitler-a-carreira.webp);
+  background-size: 120%; /* Aumenta o tamanho da imagem */
+  background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
+  background-position: center;  /* Isso centralizará a imagem dentro do quadrado */
+}
+
+
+
+
+
