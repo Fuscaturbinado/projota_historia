@@ -1,4 +1,5 @@
 .pp {
+  
   font-family: "Courier New", Courier, monospace;
 
   color: white;
@@ -26,7 +27,7 @@ body {
   font-size: 33px;
   /* escolhe o tamanho da fonte */
   position: absolute;
-  top: 180%;
+  top: 185%;
   left: 50%;
   transform: translateX(-50%);
   font-weight: bold;
@@ -420,4 +421,23 @@ body {
   z-index: -2;
   opacity: 1;
   border-radius: 26px;
+}
+.imagem-container {
+  position: relative;
+}
+
+.texto {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  display: none;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#imagem:hover + .texto,
+.texto:hover {
+  display: block;
 }
