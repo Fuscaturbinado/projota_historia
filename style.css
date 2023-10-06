@@ -143,6 +143,50 @@
   }
 
 
+  .caixa47{
+    display: flex;
+    position: relative;
+     top: -1544px;
+     right:-250px ;
+     width: 100px;
+     height: 50px;
+     margin: 22px;
+     padding: 16px;
+     border: 3px solid rgb(10, 10, 10);
+
+  justify-content: center; /* Isso vai centralizar os filhos horizontalmente */
+  align-items: center; /* Isso vai centralizar os filhos verticalmente */
+  }
+  
+  .caixa48{
+    display: flex;
+    position: relative;
+     top: -2089px;
+     right:-550px ;
+     width: 100px;
+     height: 50px;
+     margin: 22px;
+     padding: 16px;
+     border: 3px solid rgb(10, 10, 10);
+
+  justify-content: center; /* Isso vai centralizar os filhos horizontalmente */
+  align-items: center; /* Isso vai centralizar os filhos verticalmente */
+  }
+  .caixa49{
+    display: flex;
+    position: relative;
+     top: -2633px;
+     right:-550px ;
+     width: 100px;
+     height: 50px;
+     margin: 22px;
+     padding: 16px;
+     border: 3px solid rgb(10, 10, 10);
+
+  justify-content: center; /* Isso vai centralizar os filhos horizontalmente */
+  align-items: center; /* Isso vai centralizar os filhos verticalmente */
+  }
+
 
   .caixa1 {
     background-image: url(imagens/hitler-a-carreira.webp);
@@ -178,12 +222,16 @@
   
   .caixa5 {
     background-image: url(imagens/segunda-guerra-em-cores.webp);
-    background-size: 200%; /* Aumenta o tamanho da imagem */
+    background-size: 115%; /* Aumenta o tamanho da imagem */
     background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
     background-position: center;  /* Isso centralizará a imagem dentro do quadrado */
 
   }
-  
+  .caixa6{
+    ackground-repeat: no-repeat; /* Isso evitará que a imagem se repita */
+    background-position: center; 
+
+  }
   
   
  
