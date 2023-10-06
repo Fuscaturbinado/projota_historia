@@ -133,13 +133,13 @@ body {
 .caixa {
   display: flex;
  position: relative;
-  top: -1000px;
+  top: -980px;
   width: 100px;
   height: 50px;
   margin: 22px;
   padding: 16px;
-  border: 3px solid wheat;
-  border-radius: 16px;
+  border: 5px solid rgb(212, 171, 95);
+  border-radius: 10px 10px 10px 10px;
   
 }
 
@@ -155,20 +155,20 @@ bottom : 1550px;
    height: 50px;
    margin: 22px;
    padding: 16px;
-   border: 3px solid wheat; 
+   border: 5px solid rgb(212, 171, 95); 
    border-radius: 16px;
 
 }
 .caixa49{
   display: flex;
   position: relative;
-   bottom: 2074px;
+   bottom: 2115px;
    right:-1350px ;
    width: 100px;
    height: 50px;
    margin: 22px;
    padding: 16px;
-   border: 3px solid wheat;
+   border: 5px solid rgb(212, 171, 95);
    border-radius: 16px;
    
 
@@ -219,37 +219,11 @@ bottom : 1550px;
 }
 
 
-.caixa6 {
-  background-image: url(imagens/OIP\ \(3\).jpeg);
-  background-size: 112%; /* Aumenta o tamanho da imagem */
-  background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
-  background-position: center;  /* Isso centralizará a imagem dentro do quadrado */
-}
-
-.caixa7 {
-  background-image: url(imagens/a-queda.webp);
-  background-size: 120%; /* Aumenta o tamanho da imagem */
-  background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
-  background-position: center;  /* Isso centralizará a imagem dentro do quadrado */
-}
-
-
-
-
-
-.caixa8 {
-  background-image: url(imagens/a-vida-e-bela.webp);
-  background-size: 115%; /* Aumenta o tamanho da imagem */
-  background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
-  background-position: center;  /* Isso centralizará a imagem dentro do quadrado */
-}
-
-
 
 
 
 .caixa9 {
-  background-image: url(imagens/OIP\ \(1\).jpeg);
+  background-image: url();
   background-size: 140%; /* Aumenta o tamanho da imagem */
   background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
   background-position: center;  /* Isso centralizará a imagem dentro do quadrado */
@@ -385,7 +359,18 @@ bottom : 1550px;
   background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
   background-position: center;  /* Isso centralizará a imagem dentro do quadrado */
 }
-
+.fundo{
+  margin-left: -950px;
+  width: 1600px;
+  height: 620px;
+  position: absolute;
+  bottom:  -180%;
+  left: 60%;
+  background-color: white;
+  z-index: -2;
+  opacity: 1;
+  border-radius: 26px;
+}
 
 
 
