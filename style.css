@@ -135,33 +135,46 @@
    position: relative;
     top: -1000px;
     width: 200px;
-    height: 200px;
-    margin: 10px;
-    padding: 10px;
-    border: 5px solid rgb(10, 10, 10);
+    height: 100px;
+    margin: 22px;
+    padding: 19px;
+    border: 3px solid rgb(10, 10, 10);
+    
   }
+ 
+
   .caixa1 {
-    background-image: url(https://www.youtube.com/watch?v=-w0Qo_qQiRg);
-    background-size: cover;
-  }
-  
+    background-image: url(imagens/hitler-a-carreira.webp);
+    background-size: contain;
+    background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
+    background-position: center;  /* Isso centralizará a imagem dentro do quadrado */
+}
+
   .caixa2 {
-    background-image: url(https://www.youtube.com/watch?v=U7LAy8iRsWc);
-    background-size: cover;
-  }
+    background-image: url(imagens/nazismo.webp);
+    background-size: contain;
+    background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
+    background-position: center;  /* Isso centralizará a imagem dentro do quadrado */
+}
+  
   
   .caixa3 {
-    background-image: url(https://www.youtube.com/watch?v=-CPoDvZLQ6k);
-    background-size: cover;
+    background-image: url(imagens/segunda-guerra-em-cores.webp);
+    background-size: contain;
+    background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
+    background-position: center;  /
   }
-  
   .caixa4 {
     background-image: url(https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Box_Model);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
+    background-position: center;  /
   }
   
   .caixa5 {
     background-image: url(https://pt.stackoverflow.com/questions/168652/como-tornar-responsiva-uma-imagem-dentro-de-uma-caixa-utilizando-css);
-    background-size: cover;
-  }
+    background-size: contain;
+    background-repeat: no-repeat; /* Isso evitará que a imagem se repita */
+    background-position: center;  /
 
+  }
