@@ -1,8 +1,10 @@
 .pp {
     font-family: "Courier New", Courier, monospace;
+  
+  color: white;
     font-size: 36px;
-color: red;
-background-color: white;
+
+
     text-align: center;
     margin-top: 20px;
   }
@@ -21,8 +23,8 @@ background-color: white;
  
   .guerra {
     font-size: 36px;
-    color: red;
-    background-color: white;
+    color: white;
+    
     font-family:  Arial, sans-serif;
     position: absolute;
     top: 180%;
@@ -120,4 +122,50 @@ background-color: white;
    color: red; /* Cor do texto do botão */
    background-color: #000000; /* Cor de fundo do botão */ 
   }
+  .caixa {
+    display: flex;
+   position: relative;
+    top: -900px;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  .caixa1 {
+    background-image: url(https://www.youtube.com/watch?v=-w0Qo_qQiRg);
+    background-size: cover;
+  }
   
+  .caixa2 {
+    background-image: url(https://www.youtube.com/watch?v=U7LAy8iRsWc);
+    background-size: cover;
+  }
+  
+  .caixa3 {
+    background-image: url(https://www.youtube.com/watch?v=-CPoDvZLQ6k);
+    background-size: cover;
+  }
+  
+  .caixa4 {
+    background-image: url(https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Box_Model);
+    background-size: cover;
+  }
+  
+  .caixa5 {
+    background-image: url(https://pt.stackoverflow.com/questions/168652/como-tornar-responsiva-uma-imagem-dentro-de-uma-caixa-utilizando-css);
+    background-size: cover;
+  }
+  .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.elemento {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: lightblue;
+}
