@@ -130,7 +130,7 @@
     height: 200px;
     margin: 10px;
     padding: 10px;
-    border: 1px solid black;
+    border: 5px solid rgb(10, 10, 10);
   }
   .caixa1 {
     background-image: url(https://www.youtube.com/watch?v=-w0Qo_qQiRg);
