@@ -422,22 +422,3 @@ body {
   opacity: 1;
   border-radius: 26px;
 }
-.imagem-container {
-  position: relative;
-}
-
-.texto {
-  position: absolute;
-  top: 0;
-  left: 100%;
-  display: none;
-  background-color: #fff;
-  padding: 10px;
-  border: 1px solid #ccc;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-}
-
-#imagem:hover + .texto,
-.texto:hover {
-  display: block;
-}
