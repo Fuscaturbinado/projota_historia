@@ -27,7 +27,7 @@ body {
   font-size: 33px;
   /* escolhe o tamanho da fonte */
   position: absolute;
-  top: 185%;
+  top: 183%;
   left: 50%;
   transform: translateX(-50%);
   font-weight: bold;
@@ -195,11 +195,12 @@ body {
 
 .divisória {
   position: relative;
-  top: -1139px;
+  top: -1130px;
   background-color: wheat;
   border: none;
-  height: 7px;
+  height: 8px;
   border-style: solid;
+  
 }
 
 .caixa {
