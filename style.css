@@ -27,7 +27,7 @@ body {
   font-size: 33px;
   /* escolhe o tamanho da fonte */
   position: absolute;
-  top: 183%;
+  top: 179%;
   left: 50%;
   transform: translateX(-50%);
   font-weight: bold;
@@ -192,15 +192,16 @@ body {
 }
     
 
-
 .divisória {
-  position: relative;
-  top: -1130px;
+  position: absolute; /* Altere para 'absolute' */
+  bottom: -667px; /* Alinha ao fundo */
+  left: 49px; /* Alinha à esquerda */
+  right: 49px; /* Alinha à direita */
   background-color: wheat;
   border: none;
-  height: 8px;
+  height: 10px;
   border-style: solid;
-  
+  border-radius: 26px;
 }
 
 .caixa {
@@ -426,7 +427,7 @@ body {
   width: 1412px;
   height: 610px;
   position: absolute;
-  bottom: -178%;
+  bottom: -172%;
   left: 67%;
   background-color: white;
   z-index: -2;
