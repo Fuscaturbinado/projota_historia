@@ -7,7 +7,7 @@
 
 
   text-align: center;
-  margin-top: 20px;
+  margin-top: 75px;
 }
 
 body {
@@ -181,7 +181,7 @@ body {
 
 .divisória {
   position: relative;
-  top: -1100px;
+  top: -1139px;
   background-color: wheat;
   border: none;
   height: 7px;
@@ -191,7 +191,7 @@ body {
 .caixa {
   display: flex;
   position: relative;
-  top: -980px;
+  top: -1025px;
   width: 100px;
   height: 50px;
   margin: 22px;
@@ -207,7 +207,7 @@ body {
 .caixa48 {
   display: flex;
   position: relative;
-  bottom: 1550px;
+  bottom: 1590px;
   right: -660px;
   width: 100px;
   height: 50px;
@@ -221,7 +221,7 @@ body {
 .caixa49 {
   display: flex;
   position: relative;
-  bottom: 2115px;
+  bottom: 2159px;
   right: -1350px;
   width: 100px;
   height: 50px;
@@ -331,7 +331,7 @@ body {
 
 
 .caixa14 {
-  background-image: url(imagens/pearlharbor-cke.webp);
+  background-image: url(imagens/316c6b35771f86c917d27e81f82056a1.jpg);
   background-size: 110%;
   /* Aumenta o tamanho da imagem */
   background-repeat: no-repeat;
