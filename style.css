@@ -235,22 +235,17 @@ body {
 
 
 .caixa1 {
-  background-image: url(imagens/hitler-a-carreira.webp);
-  background-size: 120%;
-  /* Aumenta o tamanho da imagem */
+  background-image: url('imagens/hitler-a-carreira.webp');
+  background-size: cover;
   background-repeat: no-repeat;
-  /* Isso evitará que a imagem se repita */
   background-position: center;
-  /* Isso centralizará a imagem dentro do quadrado */
 }
-
-
 
 
 
 .caixa2 {
   background-image: url(imagens/OIP.jpeg);
-  background-size: 115%;
+  background-size: cover;
   /* Aumenta o tamanho da imagem */
   background-repeat: no-repeat;
   /* Isso evitará que a imagem se repita */
