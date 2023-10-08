@@ -2,7 +2,7 @@
   
   font-family: "Courier New", Courier, monospace;
 
-  color: white;
+  color: whitesmoke;
   font-size: 36px;
 
 
@@ -105,7 +105,7 @@ body {
   /* Posiciona o botão de forma absoluta em relação à sua célula pai */
   left: 87.9%;
   /* Posiciona o botão a 80% da largura da célula a partir da esquerda */
-  bottom: -88px;
+  bottom: -82px;
   /* Posiciona o botão a 10 pixels da altura da célula a partir de baixo */
   color: rgb(65, 27, 27);
   /* Cor do texto do botão */
@@ -135,7 +135,7 @@ body {
   /* Posiciona o botão de forma absoluta em relação à sua célula pai */
   left: 87.9%;
   /* Posiciona o botão a 80% da largura da célula a partir da esquerda */
-  bottom: -459px;
+  bottom: -460px;
   /* Posiciona o botão a 10 pixels da altura da célula a partir de baixo */
   color: rgb(65, 27, 27);
   /* Cor do texto do botão */
@@ -165,7 +165,7 @@ body {
   /* Posiciona o botão de forma absoluta em relação à sua célula pai */
   left: 87.9%;
   /* Posiciona o botão a 80% da largura da célula a partir da esquerda */
-  bottom: 523px;
+  bottom: 490px;
   /* Posiciona o botão a 10 pixels da altura da célula a partir de baixo */
   color: rgb(65, 27, 27);
   /* Cor do texto do botão */
