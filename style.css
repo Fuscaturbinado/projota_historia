@@ -90,7 +90,7 @@ body {
   /* Posiciona o botão de forma absoluta em relação à sua célula pai */
   left: 87.9%;
   /* Posiciona o botão a 80% da largura da célula a partir da esquerda */
-  bottom: 119px;
+  bottom: 110px;
   /* Posiciona o botão a 10 pixels da altura da célula a partir de baixo */
   color: rgb(65, 27, 27);
   /* Cor do texto do botão */
