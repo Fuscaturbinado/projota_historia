@@ -1,23 +1,16 @@
+@charset "UTF-8";
 .pp {
-  
   font-family: "Courier New", Courier, monospace;
-
   color: whitesmoke;
   font-size: 36px;
-
-
   text-align: center;
   margin-top: 75px;
 }
 
 body {
-
   width: 1500px;
   height: 1400px;
-
-
-  background: rgba(0, 0, 0, .4);
-
+  background: rgba(0, 0, 0, 0.4);
   border-width: 10px;
 }
 
@@ -36,8 +29,6 @@ body {
   text-align: center;
   /* centraliza o texto horizontalmente */
 }
-
-
 
 .grid {
   display: grid;
@@ -63,7 +54,6 @@ body {
   text-align: center;
   /* Alinhamento do texto dentro das células */
   border-radius: 31px;
-
 }
 
 /* Define o estilo dos textos das células da grade */
@@ -95,8 +85,8 @@ body {
   color: rgb(65, 27, 27);
   /* Cor do texto do botão */
   background-color: wheat;
-    /* Cor de fundo do botão */
-    border-radius: 26px;
+  /* Cor de fundo do botão */
+  border-radius: 26px;
 }
 
 /* Define o estilo da classe botao2 */
@@ -110,9 +100,9 @@ body {
   color: rgb(65, 27, 27);
   /* Cor do texto do botão */
   background-color: wheat;
-    /* Cor de fundo do botão */
-    border-radius: 26px;
-  }
+  /* Cor de fundo do botão */
+  border-radius: 26px;
+}
 
 /* Define o estilo da classe botao3 */
 .botao3 {
@@ -125,9 +115,9 @@ body {
   color: rgb(65, 27, 27);
   /* Cor do texto do botão */
   background-color: wheat;
-    /* Cor de fundo do botão */
-    border-radius: 26px;
-  }
+  /* Cor de fundo do botão */
+  border-radius: 26px;
+}
 
 /* Define o estilo da classe botao4 */
 .botao4 {
@@ -140,9 +130,9 @@ body {
   color: rgb(65, 27, 27);
   /* Cor do texto do botão */
   background-color: wheat;
-    /* Cor de fundo do botão */
-    border-radius: 26px;
-  }
+  /* Cor de fundo do botão */
+  border-radius: 26px;
+}
 
 /* Define o estilo da classe botao5 */
 .botao5 {
@@ -155,9 +145,9 @@ body {
   color: rgb(65, 27, 27);
   /* Cor do texto do botão */
   background-color: wheat;
-    /* Cor de fundo do botão */
-    border-radius: 26px;
-  }
+  /* Cor de fundo do botão */
+  border-radius: 26px;
+}
 
 /* Define o estilo da classe botao6 */
 .botao6 {
@@ -171,8 +161,7 @@ body {
   /* Cor do texto do botão */
   background-color: wheat;
   border-radius: 26px;
-    /* Cor de fundo do botão */
-  
+  /* Cor de fundo do botão */
 }
 
 /* Define o estilo da classe botao7 */
@@ -187,10 +176,7 @@ body {
   /* Cor do texto do botão */
   background-color: wheat;
   border-radius: 16px;
-  
-
 }
-    
 
 .divisória {
   position: absolute; /* Altere para 'absolute' */
@@ -215,11 +201,7 @@ body {
   padding: 16px;
   border: 5px solid rgb(212, 171, 95);
   border-radius: 10px 10px 10px 10px;
-
 }
-
-
-
 
 .caixa48 {
   display: flex;
@@ -232,7 +214,6 @@ body {
   padding: 16px;
   border: 5px solid rgb(212, 171, 95);
   border-radius: 16px;
-
 }
 
 .caixa49 {
@@ -246,19 +227,14 @@ body {
   padding: 16px;
   border: 5px solid rgb(212, 171, 95);
   border-radius: 16px;
-
-
 }
 
-
 .caixa1 {
-  background-image: url('imagens/hitler-a-carreira.webp');
+  background-image: url("imagens/hitler-a-carreira.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
-
-
 
 .caixa2 {
   background-image: url(imagens/OIP.jpeg);
@@ -269,10 +245,6 @@ body {
   background-position: center;
   /* Isso centralizará a imagem dentro do quadrado */
 }
-
-
-
-
 
 .caixa3 {
   background-image: url(imagens/OIP\ \(1\).jpeg);
@@ -302,9 +274,7 @@ body {
   /* Isso evitará que a imagem se repita */
   background-position: center;
   /* Isso centralizará a imagem dentro do quadrado */
-
 }
-
 
 .caixa11 {
   background-image: url(imagens/a-queda.webp);
@@ -314,9 +284,7 @@ body {
   /* Isso evitará que a imagem se repita */
   background-position: center;
   /* Isso centralizará a imagem dentro do quadrado */
-
 }
-
 
 .caixa12 {
   background-image: url(imagens/a-vida-e-bela.webp);
@@ -338,10 +306,6 @@ body {
   /* Isso centralizará a imagem dentro do quadrado */
 }
 
-
-
-
-
 .caixa14 {
   background-image: url(imagens/316c6b35771f86c917d27e81f82056a1.jpg);
   background-size: 110%;
@@ -351,10 +315,6 @@ body {
   background-position: center;
   /* Isso centralizará a imagem dentro do quadrado */
 }
-
-
-
-
 
 .caixa15 {
   background-image: url(imagens/Poster_Ateoultimohomem-1.jpg);
@@ -384,9 +344,7 @@ body {
   /* Isso evitará que a imagem se repita */
   background-position: center;
   /* Isso centralizará a imagem dentro do quadrado */
-
 }
-
 
 .caixa18 {
   background-image: url(imagens/th.jpeg);
@@ -408,10 +366,6 @@ body {
   /* Isso centralizará a imagem dentro do quadrado */
 }
 
-
-
-
-
 .caixa20 {
   background-image: url(imagens/R\ \(1\).jpeg);
   background-size: 112%;
@@ -421,9 +375,9 @@ body {
   background-position: center;
   /* Isso centralizará a imagem dentro do quadrado */
 }
+
 .fundo {
   margin-left: -976px;
-  
   width: 1412px;
   height: 610px;
   position: absolute;
@@ -432,6 +386,6 @@ body {
   background-color: white;
   z-index: -2;
   opacity: 1;
-  border: 5px solid black; /* esta propriedade define a largura, o estilo e a cor da borda */
-border-radius: 26px;
-}
+  border: 5px solid rgb(238, 232, 232); /* esta propriedade define a largura, o estilo e a cor da borda */
+  border-radius: 26px;
+}/*# sourceMappingURL=Style.css.map */
