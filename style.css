@@ -21,7 +21,7 @@ body {
   font-size: 33px;
   /* escolhe o tamanho da fonte */
   position: absolute;
-  top: 179%;
+  top: 184%;
   left: 50%;
   transform: translateX(-50%);
   font-weight: bold;
@@ -382,7 +382,7 @@ body {
   width: 1412px;
   height: 610px;
   position: absolute;
-  bottom: -172%;
+  bottom: -182%;
   left: 67%;
   background-color: white;
   z-index: -2;
@@ -390,3 +390,8 @@ body {
   border: 5px solid rgb(238, 232, 232); /* esta propriedade define a largura, o estilo e a cor da borda */
   border-radius: 26px;
 }/*# sourceMappingURL=Style.css.map */
+.text1{
+  color: black;
+  text-emphasis: none;
+  padding:22px;
+}
