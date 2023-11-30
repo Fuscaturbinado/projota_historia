@@ -359,11 +359,7 @@ body {
 
 .caixa19 {
   background-image: url(imagens/10965_46091_41791.webp);
-  background-size: 120%;
-  /* Aumenta o tamanho da imagem */
-  background-repeat: no-repeat;
-  /* Isso evitará que a imagem se repita */
-  background-position: center;
+   
   /* Isso centralizará a imagem dentro do quadrado */
 }
 
